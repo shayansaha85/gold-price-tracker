@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gold Price Tracker</title>
+    <style>
+        #mainheading {
+            font-weight: bold;
+            color: #337ab7;
+        }
+        span {
+            color: red;
+        }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 id="mainheading" align="center">Gold Price Tracker</h1>
+
+    <div class="container">
+        <div class="a">
+            <br>
+            <h4 align="center" id="currentPrice"></h4>
+            <br>
+            <br>
+            <form onsubmit="return false">
+                <div class="form-group">
+                    <div class="text-center">
+                        <h5>Calculate price of gold by weight (grams)</h5>
+                    </div>
+                <label for="exampleInputEmail1"></label>
+                <input type="text" class="form-control" id="weightOfGold" placeholder="Enter grams of gold">
+                </div>
+                <div class="text-center">
+                    <button type="submit" id="findVal" class="btn btn-danger btn-block">Calculate price</button>
+                </div>
+                <h3 align="center" id="finalPrice"></h3>
+
+            </form>
+            <br>
+            <br>
+        </div>
+    </div>
+    <script src="rest.js"></script>
+  </body>
+</html>

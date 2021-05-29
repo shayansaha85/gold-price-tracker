@@ -1,0 +1,1 @@
+https://metals-api.com/api/latest?access_key=rr6wvwhhxf700hgf988c6gntqopdclu1o35lq5qxdawenxd2vl4ze40u4phz&base=INR&symbols=XAU
